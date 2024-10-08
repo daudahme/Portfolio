@@ -2,11 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
-import suicide from "../../Assets/Projects/suicide.png";
+// import leaf from "../../Assets/Projects/leaf.png";
+// import emotion from "../../Assets/Projects/emotion.png";
+// import editor from "../../Assets/Projects/codeEditor.png";
+// import chatify from "../../Assets/Projects/chatify.png";
+// import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
 function Projects() {
@@ -23,12 +23,13 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={bitsOfCode}
               isBlog={false}
-              title="Chatify"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/soumyajit4419/Chatify"
-              demoLink="https://chatify-49.web.app/"
+              title="LawGroup"
+              description="
+Introducing LAW Group: a premier legal consultancy dedicated to providing expert guidance in various fields of law. Our experienced team is committed to delivering personalized solutions, ensuring our clients navigate legal complexities with confidence. Explore our services and discover how we can support your legal needs effectively and efficiently. Your success is our priority. "
+              // ghLink="https://github.com/soumyajit4419/Chatify"
+              demoLink="https://lawgroup.netlify.app/"
             />
           </Col>
 
@@ -36,55 +37,60 @@ function Projects() {
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Finance Summary "
+              description="
+Introducing Finance Suits: your trusted partner in financial solutions. We specialize in tailored investment strategies, risk management, and financial planning to help you achieve your goals. Our expert team is dedicated to empowering clients with the knowledge and tools needed for financial success. Experience personalized service and innovative approaches to elevate your financial future."
+              // ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              demoLink="https://finance-saas-template.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={bitsOfCode}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Chat app "
+              description="Introducing ChatServices: your go-to platform for seamless communication and support. We offer real-time chat solutions designed to enhance customer engagement and streamline interactions. Our user-friendly interface and responsive team ensure your queries are addressed promptly. Experience the power of instant communication and elevate your customer service today!
+
+
+
+"
+              // ghLink="https://github.com/soumyajit4419/Editor.io"
+              demoLink="https://chatorigin.netlify.app/"              
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={bitsOfCode}
               isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              title="Youtube portfolio"
+              description="
+Welcome to our YouTube portfolio! Explore a diverse collection of engaging videos showcasing our creativity and expertise. From informative tutorials to captivating storytelling, each project highlights our commitment to quality and innovation. Join our journey and discover how we bring ideas to life through the power of video. Subscribe and be part of our community!"
+              // ghLink="https://github.com/soumyajit4419/Plant_AI"
+              demoLink="https://bella-youtuber.netlify.app/"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={bitsOfCode}
               isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
+              title="SuperCarwash "
+              description="Introducing Cash Wash: your ultimate destination for professional car cleaning services. We offer a range of washing and detailing options to keep your vehicle looking pristine. Our skilled team uses eco-friendly products and techniques to ensure a thorough clean while protecting the environment. Experience the difference with Cash Wash—where quality meets convenience!"
+              // ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              demoLink="https://supremecarwash.netlify.app/" 
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={bitsOfCode}
               isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
+              title="Developer portfolio "
+              description="Welcome to our portfolio! Here, you'll find a curated collection of our best work across various projects and industries. From innovative designs to impactful campaigns, each entry reflects our commitment to excellence and creativity. Explore our journey and see how we turn ideas into reality, delivering exceptional results for our clients."
+              // ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              demoLink="https://jrdev-port.netlify.app/"      
             />
           </Col>
         </Row>
